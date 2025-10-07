@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Kazi Jibran Rafat Samie  
 📍 Toronto, Canada  
-🎓 Prospective PhD Student – Computer Science, University of Toronto (Fall 2026)  
+🎓 Prospective PhD Student – Computer Science(Fall 2026)  
 📧 jibrankazi@gmail.com | 🌐 [linkedin.com/in/jibrankazi](https://linkedin.com/in/jibrankazi) | 💻 [github.com/jibrankazi](https://github.com/jibrankazi)
 
 ---
