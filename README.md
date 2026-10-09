@@ -21,3 +21,6 @@ I build data-driven software and explore how retrieval, machine learning and aut
 **Current focus:** Production-quality Python services, enterprise RAG/agents, API integrations, reproducible ML, and AI reliability.
 
 Repositories include a mixture of tested implementations and prototypes. Each README identifies the functionality actually implemented; **no repository should be assumed production-ready merely because a demonstration or smoke test passes**.
+
+
+*Portfolio data policy (October 2026): Research results are published only when the available code, original source data and reproducible tests support them. Public portfolios do not include confidential municipal or banking records.*
