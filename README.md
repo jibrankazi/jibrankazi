@@ -1,26 +1,28 @@
-# Jibran Kazi — Applied AI, Python and Analytics Engineering
+# Applied AI, Python and Data Analytics
 
-Toronto, Canada | [GitHub](https://github.com/jibrankazi)
+Toronto, Canada | [GitHub projects](https://github.com/jibrankazi?tab=repositories)
 
-I build data-driven software and explore how retrieval, machine learning and automation can solve operational problems. My interests include enterprise AI applications, trustworthy evaluation, optimization and explainable analytics.
+I work with Python, SQL, Power BI, machine-learning evaluation, data ingestion and reproducible analytics. The repositories below contain a mixture of working tools, original public-source analysis and experimental prototypes. **A completed data import or CI unit test is not proof of an entire system or deployable model.**
 
-## Selected implemented projects
+## Projects with executed original-source checks
 
-- **[WFM Schedule Optimizer](https://github.com/jibrankazi/wfm-schedule-optimizer)** — Synthetic contact-centre workforce scheduling with Erlang-based demand sizing, optimization and automated tests. [CI](https://github.com/jibrankazi/wfm-schedule-optimizer/actions/workflows/ci-cd.yml)
-- **[Power BI Model Auditor](https://github.com/jibrankazi/pbi-model-auditor-Public)** — Python static-analysis tooling for broken Power BI template bindings and model references, with unit tests across multiple Python versions. [Tests](https://github.com/jibrankazi/pbi-model-auditor-Public/actions/workflows/tests.yml)
-- **[Toronto 311 Data Analysis](https://github.com/jibrankazi/data-analytics-portfolio/tree/main/toronto-311-analysis)** — Public-data exploration of municipal service-request patterns and geographic trends.
-- **[Healthcare-ML](https://github.com/jibrankazi/Healthcare-ML)** — Clinical-demo classification models, calibration, evaluation and reproducible training checks. [Tests](https://github.com/jibrankazi/Healthcare-ML/actions/workflows/tests.yml)
-- **[Ontario Health Causal Analysis](https://github.com/jibrankazi/ontario-health-causal-analysis)** — Causal-analysis code and documented results, with automated analysis validation.
-- **[NeuroEvoRAG](https://github.com/jibrankazi/NeuroEvoRAG)** — A reproducible **synthetic retrieval-only** hyperparameter search. Full LLM/NEAT research claims are not yet validated.
-- **[DiffRAG-SQL](https://github.com/jibrankazi/DiffRAG-SQL)** — Experimental TF-IDF retrieval, transformer extractive QA and metrics export. Differentiable SQL grounding is **not** implemented in the checked-in code.
+| Project | Verified scope and evidence | Limit |
+| --- | --- | --- |
+| [Toronto 311 analysis](https://github.com/jibrankazi/data-analytics-portfolio/tree/main/toronto-311-analysis) | [2025 public service-request audit passed](https://github.com/jibrankazi/data-analytics-portfolio/actions/runs/37936583459) | Multiple request channels; not a telephone-staffing dataset |
+| [Power BI Model Auditor](https://github.com/jibrankazi/pbi-model-auditor-Public) | [Original Microsoft PBIT static integration passed](https://github.com/jibrankazi/pbi-model-auditor-Public/actions/runs/37936674017) | Not a tenant-credential/live refresh |
+| [Healthcare-ML](https://github.com/jibrankazi/Healthcare-ML) | [Full public Wisconsin Breast Cancer research run](https://github.com/jibrankazi/Healthcare-ML/actions/runs/37940182428) — train, heldout evaluation, SHAP/plots and LaTeX | Experimental research only, not clinical deployment; [research lifecycle changes merged](https://github.com/jibrankazi/Healthcare-ML/pull/3) |
+| [Ontario Health Causal Analysis](https://github.com/jibrankazi/ontario-health-causal-analysis) | [Checked-in observational dataset analysis CI passed](https://github.com/jibrankazi/ontario-health-causal-analysis/actions/runs/37936780062) | Does not independently establish causal effect or original source provenance |
+| [NeuroEvoRAG](https://github.com/jibrankazi/NeuroEvoRAG) | [Genuine Stanford SQuAD retrieval benchmark passed](https://github.com/jibrankazi/NeuroEvoRAG/actions/runs/37892312991) | Not end-to-end generated answer or LLM-NEAT validation |
+| [DiffRAG-SQL](https://github.com/jibrankazi/DiffRAG-SQL) | [Real SQuAD extractive QA passed](https://github.com/jibrankazi/DiffRAG-SQL/actions/runs/37936638206) | SQL grounding and differentiable retrieval unverified |
+| [WFM Schedule Optimizer](https://github.com/jibrankazi/wfm-schedule-optimizer) | [Observed Toronto 311 request timestamps audited](https://github.com/jibrankazi/wfm-schedule-optimizer/actions/runs/37936594132) plus separate synthetic scheduling tests | No actual call-arrival, employee roster or operational staffing trial |
 
-## Skills and interests
+Additional repositories use official ECCC climate data, Toronto traffic surveys, Bank of Canada FX and press feeds, Canadian grants, and real historical market-price checks. The sources and **precise nonvalidated boundaries** for all 17 substantive projects are recorded in the [portfolio evidence index](https://github.com/jibrankazi/toronto-2025-data-science-portfolio). The [expanded evidence index](https://github.com/jibrankazi/toronto-2025-data-science-portfolio/pull/3) is merged, with links to individual execution records and precise outstanding blockers.
 
-**Coding:** Python, SQL, TypeScript, Git, automated testing, data processing.  
-**Data and AI:** scikit-learn, retrieval/QA, optimization, model evaluation, Power BI and process automation.  
-**Current focus:** Production-quality Python services, enterprise RAG/agents, API integrations, reproducible ML, and AI reliability.
+## Engineering focus
 
-Repositories include a mixture of tested implementations and prototypes. Each README identifies the functionality actually implemented; **no repository should be assumed production-ready merely because a demonstration or smoke test passes**.
+- Reproducible research pipelines, honest provenance and source-contract validation
+- SQL, Python ETL, statistical modelling and explainable ML
+- Power BI model diagnostics and municipal service analytics
+- Reliable API integration and conservative handling of unavailable source systems
 
-
-*Portfolio data policy (October 2026): Research results are published only when the available code, original source data and reproducible tests support them. Public portfolios do not include confidential municipal or banking records.*
+All reported results should be checked against the individual GitHub Actions execution and artifact for the **same commit**. Simulated experiments and tests are explicitly labeled; no confidential municipal or banking records should be published.
