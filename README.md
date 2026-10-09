@@ -1,60 +1,23 @@
-# 👋 Hi, I'm Kazi Jibran Rafat Samie  
-📍 Toronto, Canada  
-📧 jibrankazi@gmail.com | 🌐 [linkedin.com/in/jibrankazi](https://linkedin.com/in/jibrankazi) | 💻 [github.com/jibrankazi](https://github.com/jibrankazi)
+# Jibran Kazi — Applied AI, Python and Analytics Engineering
 
----
+Toronto, Canada | [GitHub](https://github.com/jibrankazi)
 
-## 🧠 Research Vision  
-I’m driven by one question: **How can AI systems reason, adapt, and explain with the same rigour that they predict and generate?**  
+I build data-driven software and explore how retrieval, machine learning and automation can solve operational problems. My interests include enterprise AI applications, trustworthy evaluation, optimization and explainable analytics.
 
-My work integrates **Causal Inference**, **Reinforcement Learning (RL)**, and **Retrieval-Augmented Generation (RAG)** to build transparent and reproducible AI systems.  
-I’m passionate about creating models that are **interpretable, data-grounded, and ethically deployable**.  
+## Selected implemented projects
 
----
+- **[WFM Schedule Optimizer](https://github.com/jibrankazi/wfm-schedule-optimizer)** — Synthetic contact-centre workforce scheduling with Erlang-based demand sizing, optimization and automated tests. [CI](https://github.com/jibrankazi/wfm-schedule-optimizer/actions/workflows/ci-cd.yml)
+- **[Power BI Model Auditor](https://github.com/jibrankazi/pbi-model-auditor-Public)** — Python static-analysis tooling for broken Power BI template bindings and model references, with unit tests across multiple Python versions. [Tests](https://github.com/jibrankazi/pbi-model-auditor-Public/actions/workflows/tests.yml)
+- **[Toronto 311 Data Analysis](https://github.com/jibrankazi/data-analytics-portfolio/tree/main/toronto-311-analysis)** — Public-data exploration of municipal service-request patterns and geographic trends.
+- **[Healthcare-ML](https://github.com/jibrankazi/Healthcare-ML)** — Clinical-demo classification models, calibration, evaluation and reproducible training checks. [Tests](https://github.com/jibrankazi/Healthcare-ML/actions/workflows/tests.yml)
+- **[Ontario Health Causal Analysis](https://github.com/jibrankazi/ontario-health-causal-analysis)** — Causal-analysis code and documented results, with automated analysis validation.
+- **[NeuroEvoRAG](https://github.com/jibrankazi/NeuroEvoRAG)** — A reproducible **synthetic retrieval-only** hyperparameter search. Full LLM/NEAT research claims are not yet validated.
+- **[DiffRAG-SQL](https://github.com/jibrankazi/DiffRAG-SQL)** — Experimental TF-IDF retrieval, transformer extractive QA and metrics export. Differentiable SQL grounding is **not** implemented in the checked-in code.
 
-## 🔬 Research Portfolio  
+## Skills and interests
 
-### 🩺 [Healthcare-ML Pipeline: Clinical Risk Modeling with API Data and LaTeX Sync](https://github.com/jibrankazi/healthcare-ml-pipeline)
-End-to-end pipeline for interpretable healthcare risk prediction using API-sourced data.  
-Implements Random Forest with calibration analysis, AUROC/AUPRC evaluation, and automatic LaTeX report sync.  
-**Focus:** Explainable ML | Clinical Data | Trustworthy AI  
+**Coding:** Python, SQL, TypeScript, Git, automated testing, data processing.  
+**Data and AI:** scikit-learn, retrieval/QA, optimization, model evaluation, Power BI and process automation.  
+**Current focus:** Production-quality Python services, enterprise RAG/agents, API integrations, reproducible ML, and AI reliability.
 
----
-
-### 🧮 [Ontario Health Causal Analysis](https://github.com/jibrankazi/ontario-health-causal-analysis)
-Causal inference pipeline evaluating a provincial health policy using DiD and PSM estimators.  
-Automated through CI/CD and documented in a public HTML report.  
-**Focus:** Causal Reasoning | Reproducibility | Policy Analytics  
-
----
-
-### 🧠 [DiffRAG-SQL: Differentiable Retrieval + SQL Reasoning for Faithful QA](https://github.com/jibrankazi/diffrag-sql)
-Differentiable Retrieval-Augmented Generation system combining LLMs with SQL grounding for factual QA.  
-Integrates Hugging Face datasets, DistilBERT reader, and LaTeX result synchronization.  
-**Focus:** Generative AI | Structured Reasoning | Factual Faithfulness  
-
----
-
-### 🛡️ [Adaptive Cyber Defense RL + NLP](https://github.com/jibrankazi/adaptive_cyber_defense_rl_nlp)
-Deep Reinforcement Learning (DQN, PPO) with NLP-based threat intelligence for real-time adaptive security.  
-Demonstrates 72 % attack reduction vs. static baselines and interpretable RL decision-making.  
-**Focus:** Reinforcement Learning | NLP | Security AI  
-
----
-
-## ⚙️ Technical Stack  
-**Languages:** Python, SQL, R  
-**ML Frameworks:** PyTorch, Scikit-learn, Hugging Face Transformers  
-**Tooling:** GitHub Actions, Pandas, NumPy, Matplotlib, YAML, LaTeX  
-**Core Skills:** Causal Inference · Reinforcement Learning · RAG · Explainable AI · Open Science  
-
----
-
-## 🎯 Research Fit  
-My doctoral research goal is to advance **interpretable, causally grounded generative AI** — systems that can explain and justify their reasoning.  
-At the **University of Toronto**, I aim to work under the guidance of **Professors Sheila McIlraith, Jimmy Ba, Rahul Krishnan, and Alán Aspuru-Guzik**, whose research aligns directly with my technical and scientific interests.
-
----
-
-© 2025 **Kazi Jibran Rafat Samie**  
-*AI Researcher | Reproducible Science | Generative and Causal Reasoning*  
+Repositories include a mixture of tested implementations and prototypes. Each README identifies the functionality actually implemented; **no repository should be assumed production-ready merely because a demonstration or smoke test passes**.
