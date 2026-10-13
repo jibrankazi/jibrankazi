@@ -4,6 +4,10 @@ Toronto, Canada | [GitHub projects](https://github.com/jibrankazi?tab=repositori
 
 I work with Python, SQL, Power BI, machine-learning evaluation, data ingestion and reproducible analytics. The repositories below contain a mixture of working tools, original public-source analysis and experimental prototypes. **A completed data import or CI unit test is not proof of an entire system or deployable model.**
 
+## AI / ML engineering interview preparation
+
+I am prioritizing technical depth over repository count: two reproducible supervised ML walkthroughs (Wisconsin breast-cancer research and genuine historical ULB fraud), a small source-grounded RAG demonstration, a simulation-only RL study, and an honest external SQL execution benchmark. Each is described with a traceable tested scope and unresolved limitations. The [AI/ML Engineering Interview Playbook](AI_ML_ENGINEERING_INTERVIEW_PLAYBOOK.md) records a ranked portfolio, relevant model and evaluation concepts, technical interview questions and all 19 repositories' intended presentation. Its contents are **preparation material**, not evidence of personal authorship, professional deployment, or validated production AI.
+
 ## Projects with executed original-source checks
 
 | Project | Verified scope and evidence | Limit |
