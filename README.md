@@ -14,31 +14,31 @@ I build and evaluate machine-learning applications and reproducible data systems
 
 - **Executed NLP evaluation:** 1,200 real Stanford SQuAD passages indexed per seed; **360 heldout retrieval questions**, with **BM25 recall@3 = 91.67%**, and **34/72 exact neural answers (47.22%)** using the existing TF-IDF-selected pretrained-reader setup. Retrieval recall is *not* answer correctness; this is a favorable, closed-corpus research benchmark.
 - **[Actual API/UI and Docker test](https://github.com/jibrankazi/NeuroEvoRAG/actions/runs/38348736092)** · [Architecture, demo instructions and screenshot](https://github.com/jibrankazi/NeuroEvoRAG/blob/main/docs/LOCAL_APP.md) · [Measured original-data QA benchmark](https://github.com/jibrankazi/NeuroEvoRAG/actions/runs/38344505317)
-- **UI screenshot:** Open the first workflow and download the \`local-document-api-working-ui-screenshot\` artifact; it contains the **actual locally served browser capture**, not a mockup.
+- **UI screenshot:** Open the first workflow and download the `local-document-api-working-ui-screenshot` artifact; it contains the **actual locally served browser capture**, not a mockup.
 
-\`\`\`bash
+```bash
 git clone https://github.com/jibrankazi/NeuroEvoRAG.git
 cd NeuroEvoRAG
 docker build -t neuroevo-local .
 docker run --rm -p 127.0.0.1:8000:8000 neuroevo-local
 # Open http://localhost:8000
-\`\`\`
+```
 
 ### 02 · [Healthcare-ML — reproducible supervised learning to API serving](https://github.com/jibrankazi/Healthcare-ML)
 
 **Training-to-inference lifecycle:** Fit five models on the original **569-row Wisconsin Breast Cancer public research dataset** with a fixed stratified split, choose a model by training-only cross-validation, evaluate **114 heldout records**, create explanation/diagnostic plots, serialize the model, build a Docker image and serve the same feature schema over an HTTP API.
 
-- **Deployed-style demonstration:** \`/predict\`, \`/schema\`, \`/health\`, and \`/metrics\`; validates all 30 original feature names and the correct label direction (**1 = malignant in this dataset**). The aggregate-only monitor tracks sample counts, probability bins and training-reference envelope excursions; it does not store user records.
+- **Deployed-style demonstration:** `/predict`, `/schema`, `/health`, and `/metrics`; validates all 30 original feature names and the correct label direction (**1 = malignant in this dataset**). The aggregate-only monitor tracks sample counts, probability bins and training-reference envelope excursions; it does not store user records.
 - **[Verified training → real Docker → actual HTTP inference and monitoring run](https://github.com/jibrankazi/Healthcare-ML/actions/runs/38348764840)** · [Architecture and exact setup](https://github.com/jibrankazi/Healthcare-ML/blob/main/docs/RESEARCH_SERVING.md) · [Independent training/heldout research workflow](https://github.com/jibrankazi/Healthcare-ML/actions/workflows/tests.yml)
 - **Scientific boundary:** a historic public ML benchmark, **not a clinically validated prediction or patient-facing medical device**.
 
-\`\`\`bash
+```bash
 git clone https://github.com/jibrankazi/Healthcare-ML.git
 cd Healthcare-ML
 docker build -t wisconsin-research-api .
 docker run --rm -p 127.0.0.1:8002:8000 wisconsin-research-api
 # Open http://localhost:8002/docs to explore the API
-\`\`\`
+```
 
 ### 03 · [Fraud Detection — imbalanced classification and decision analysis](https://github.com/jibrankazi/data-analytics-portfolio/tree/main/fraud-detection-finance)
 
