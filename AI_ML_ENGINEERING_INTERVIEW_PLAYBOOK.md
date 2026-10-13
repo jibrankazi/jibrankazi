@@ -64,7 +64,7 @@ Seventy percent *clause-label micro-F1* is not seventy percent correct SQL. The 
 
 ### 7. What did YOU actually implement?
 
-Be precise about which parts you personally designed, reviewed, changed, tested and can reconstruct. If automated coding assistance produced code, say so when relevant and then demonstrate your understanding of its behavior and limitations. The repository is evidence of software, **not proof of individual authorship**. Do not credit yourself with your manager's Erlang C or Cisco data work, and do not claim production deployment that has not happened.
+Be precise about which parts you personally designed, reviewed, changed, tested and can reconstruct. Demonstrate your understanding by explaining the architecture, tests, design decisions, known limitations and practical reproducibility. The repository is evidence that the software exists and runs; it does not by itself establish any particular person's authorship. Do not credit yourself with your manager's Erlang C or Cisco data work, and do not claim production deployment that has not happened.
 
 ## Practical technical interview rehearsals
 
